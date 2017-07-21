@@ -1,0 +1,14 @@
+question
+1
+enonce
+supprimer_l'image 
+chemin
+C:\\Users\\plaurent\\Desktop\\image.png
+hauteur
+587
+largeur
+940
+zone
+0,94,389,459
+zone
+381,94,389,459

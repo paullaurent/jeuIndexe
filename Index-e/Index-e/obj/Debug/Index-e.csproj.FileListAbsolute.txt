@@ -1,0 +1,9 @@
+C:\Users\plaurent\Documents\jeu_indexe\Index-e\Index-e\bin\Debug\Index-e.exe.config
+C:\Users\plaurent\Documents\jeu_indexe\Index-e\Index-e\bin\Debug\Index-e.exe
+C:\Users\plaurent\Documents\jeu_indexe\Index-e\Index-e\bin\Debug\Index-e.pdb
+C:\Users\plaurent\Documents\jeu_indexe\Index-e\Index-e\obj\Debug\Index-e.csprojResolveAssemblyReference.cache
+C:\Users\plaurent\Documents\jeu_indexe\Index-e\Index-e\obj\Debug\Index_e.Form1.resources
+C:\Users\plaurent\Documents\jeu_indexe\Index-e\Index-e\obj\Debug\Index_e.Properties.Resources.resources
+C:\Users\plaurent\Documents\jeu_indexe\Index-e\Index-e\obj\Debug\Index-e.csproj.GenerateResource.Cache
+C:\Users\plaurent\Documents\jeu_indexe\Index-e\Index-e\obj\Debug\Index-e.exe
+C:\Users\plaurent\Documents\jeu_indexe\Index-e\Index-e\obj\Debug\Index-e.pdb
