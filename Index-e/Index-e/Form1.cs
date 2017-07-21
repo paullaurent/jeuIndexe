@@ -20,7 +20,6 @@ namespace Index_e
             label1.Size = new System.Drawing.Size(Questions[0].largeur, Questions[0].hauteur);
             label1.BackColor = Color.FromArgb(0, Color.Green);
         }
-
         public void readTxt()
         {
             string[] lines = System.IO.File.ReadAllLines(@"C:\Users\plaurent\Documents\jeu_indexe\data.txt");
@@ -56,7 +55,11 @@ namespace Index_e
 
         }
 
-
+        public void clear()
+        {
+           // foreach (Control control in Form1.Controls)
+            { }
+        }
         private void label1_Click(object sender, EventArgs e)
         {
             int nbZones = 0;
@@ -89,10 +92,12 @@ namespace Index_e
                 if (ok == 1)
                 {
 
-                    Brush brush = new SolidBrush(Color.Green);
-                    Rectangle rect = new Rectangle(Convert.ToInt32(zone.x + 0.05 * zone.largeur), Convert.ToInt32(zone.y + 0.05 * zone.hauteur), Convert.ToInt32(0.9 * zone.hauteur), Convert.ToInt32(0.9 * zone.largeur));
-                    g.FillRectangle(brush, rect);
-                    res++;
+                    PictureBox panel = new PictureBox();
+                    panel.BackColor = Color.Green;
+                    panel.Location=new Point(Convert.ToInt32(zone.x + 0.05 * zone.largeur), Convert.ToInt32(zone.y + 0.05 * zone.hauteur));
+                    panel.Size = new Size(Convert.ToInt32(0.9 * zone.hauteur), Convert.ToInt32(0.9 * zone.largeur));
+                    this.Controls.Add(panel);
+                    panel.BringToFront();
                 }
                 else
                 {
@@ -105,21 +110,15 @@ namespace Index_e
 
                     result = MessageBox.Show(message, caption, buttons);
 
-                    if (result == System.Windows.Forms.DialogResult.OK)
-                    {
-
-                        // Closes the parent form.
-
-                        this.Close();
-
-                    }
                 }
                             
                 
 
             }
             if (res==nbZones)
-            { InitializeComponent(); }
+            { this.Controls.Clear();
+                InitializeComponent();
+            }
         }
 
 
