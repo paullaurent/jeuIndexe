@@ -22,7 +22,7 @@ namespace Index_e
         }
         public void readTxt()
         {
-            string[] lines = System.IO.File.ReadAllLines(@"C:\Users\plaurent\Documents\jeu_indexe\data.txt");
+            string[] lines = System.IO.File.ReadAllLines(@"C:\Users\Paul\Documents\Ecole\2A\indexe\jeuIndexe\data.txt");
             int i = 0;
             int j = -1;
             while (i != lines.Length)
@@ -55,16 +55,13 @@ namespace Index_e
 
         }
 
-        public void clear()
-        {
-           // foreach (Control control in Form1.Controls)
-            { }
-        }
+
+        int res = 0;
         private void label1_Click(object sender, EventArgs e)
         {
             int nbZones = 0;
             Zone zone=new Zone();
-            int res = 0;
+
             int ok = 0; //permet de savoir si une zone correspond
             int x = MousePosition.X;
             int y = MousePosition.Y;
@@ -98,6 +95,7 @@ namespace Index_e
                     panel.Size = new Size(Convert.ToInt32(0.9 * zone.hauteur), Convert.ToInt32(0.9 * zone.largeur));
                     this.Controls.Add(panel);
                     panel.BringToFront();
+                    res++;
                 }
                 else
                 {
@@ -111,14 +109,21 @@ namespace Index_e
                     result = MessageBox.Show(message, caption, buttons);
 
                 }
-                            
-                
+
+                if (res == nbZones)
+                {
+                    foreach (Control ctrl in this.Controls)
+                    {
+                        if (ctrl.Name != "label1")
+                        {
+                            ctrl.BackColor = Color.Transparent;
+                        }
+                    }
+                    InitializeComponent();
+                }
 
             }
-            if (res==nbZones)
-            { this.Controls.Clear();
-                InitializeComponent();
-            }
+
         }
 
 

@@ -7,3 +7,12 @@ C:\Users\plaurent\Documents\jeu_indexe\Index-e\Index-e\obj\Debug\Index_e.Propert
 C:\Users\plaurent\Documents\jeu_indexe\Index-e\Index-e\obj\Debug\Index-e.csproj.GenerateResource.Cache
 C:\Users\plaurent\Documents\jeu_indexe\Index-e\Index-e\obj\Debug\Index-e.exe
 C:\Users\plaurent\Documents\jeu_indexe\Index-e\Index-e\obj\Debug\Index-e.pdb
+C:\Users\Paul\Documents\Ecole\2A\indexe\jeuIndexe\Index-e\Index-e\bin\Debug\Index-e.exe.config
+C:\Users\Paul\Documents\Ecole\2A\indexe\jeuIndexe\Index-e\Index-e\bin\Debug\Index-e.exe
+C:\Users\Paul\Documents\Ecole\2A\indexe\jeuIndexe\Index-e\Index-e\bin\Debug\Index-e.pdb
+C:\Users\Paul\Documents\Ecole\2A\indexe\jeuIndexe\Index-e\Index-e\obj\Debug\Index-e.csprojResolveAssemblyReference.cache
+C:\Users\Paul\Documents\Ecole\2A\indexe\jeuIndexe\Index-e\Index-e\obj\Debug\Index_e.Form1.resources
+C:\Users\Paul\Documents\Ecole\2A\indexe\jeuIndexe\Index-e\Index-e\obj\Debug\Index_e.Properties.Resources.resources
+C:\Users\Paul\Documents\Ecole\2A\indexe\jeuIndexe\Index-e\Index-e\obj\Debug\Index-e.csproj.GenerateResource.Cache
+C:\Users\Paul\Documents\Ecole\2A\indexe\jeuIndexe\Index-e\Index-e\obj\Debug\Index-e.exe
+C:\Users\Paul\Documents\Ecole\2A\indexe\jeuIndexe\Index-e\Index-e\obj\Debug\Index-e.pdb
